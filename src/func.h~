@@ -1,0 +1,10 @@
+#pragma once
+#ifndef CRYPT_FUNC_H
+#define CRYPT_FUNC_H
+void tchk();
+void tire();
+void morze();
+void demorze();
+
+#include "func_morze.cpp"
+#endif
