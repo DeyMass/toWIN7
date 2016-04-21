@@ -73,7 +73,7 @@ void demorze(char* str){
     }
 void morze(char* str){
      char* total;
-     total=new char [strlen(str)*8];  
+     total=new char [strlen(str)*9];  
      int j=0;
      for(int i=0;i<strlen(str);i++){
             
@@ -305,7 +305,7 @@ void morze(char* str){
      tchk();
      }
      if (str[i]=='G'||str[i]=='g'){
-     total[j++]='*';
+     total[j++]='-';
      total[j++]='-';
      total[j++]='*';
      tire();tire();tchk();}
